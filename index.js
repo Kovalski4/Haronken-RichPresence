@@ -2,6 +2,7 @@ const { Client, RichPresence } = require('discord.js-selfbot-v13');
 const client = new Client();
 
 client.on('ready', async () => {
+  client.user.setGlobalName('! Kovalski');
   getExtendURL = await RichPresence.getExternal(
     client,
     '367827983903490050',
