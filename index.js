@@ -3,9 +3,7 @@ const client = new Client();
 x = 0;
 
 client.on('ready', async () => {
-
   updatePresence();
-
 });
 
 setInterval(updatePresence, 600000);
@@ -38,8 +36,6 @@ async function updatePresence() {
     .addButton('Discord', 'https://discord.gg/Gp6GTsCyAr');
 
   client.user.setPresence({ activities: [status] });
-
-  client.user.setGlobalName('Haronken');
 }
 
 client.login(process.env.DISCORD_USER_TOKEN);
