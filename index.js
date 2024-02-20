@@ -11,7 +11,7 @@ client.on('ready', async () => {
   const status = new RichPresence(client)
     .setApplicationId('367827983903490050')
     .setType('STREAMING')
-    .setURL('https://discord.gg/Gp6GTsCyAr')
+    .setURL('https://www.twitch.tv/haronken')
     .setState('Ekonomi Vanilla Deneyimi! [1.20.4]')
     .setName('Minecraft')
     .setDetails('oyna.haronken.com.tr')
