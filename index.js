@@ -23,6 +23,8 @@ client.on('ready', async () => {
     .addButton('Discord', 'https://discord.gg/Gp6GTsCyAr');
 
   client.user.setPresence({ activities: [status] });
+
+  client.user.setGlobalName('Haronken v2');
 });
 
 client.login(process.env.DISCORD_USER_TOKEN);
