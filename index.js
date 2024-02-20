@@ -15,16 +15,17 @@ client.on('ready', async () => {
 
 });
 
-client.setInterval(() => {
+
+setInterval(updatePresence, 600000);
+
+function updatePresence() {
+
   if (x = 0) {
     x = 1;
   } else {
     x = 0;
   }
-  updatePresence();
-}, 600000);
 
-function updatePresence() {
   const status = new RichPresence(client)
     .setApplicationId('367827983903490050')
     .setType('STREAMING')
