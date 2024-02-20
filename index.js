@@ -1,5 +1,6 @@
 const { Client, RichPresence } = require('discord.js-selfbot-v13');
 const client = new Client();
+const keep_alive = require('./keep_alive.js')
 
 client.on('ready', async () => {
   client.user.setGlobalName('! Kovalski');
