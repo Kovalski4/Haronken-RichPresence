@@ -5,7 +5,7 @@ client.on('ready', async () => {
   const getExtendURL = await RichPresence.getExternal(
     client,
     '367827983903490050',
-    'https://iconape.com/wp-content/png_logo_vector/minecraft.png', // Required if the image you use is not in Discord
+    'https://i.ibb.co/zrNbmq8/logo-removebg-preview-n-Sklln3-NA-transformed.png', // Required if the image you use is not in Discord
   );
 
   const status = new RichPresence(client)
