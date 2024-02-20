@@ -5,19 +5,19 @@ client.on('ready', async () => {
   const status = new RichPresence(client)
     .setApplicationId('367827983903490050')
     .setType('PLAYING')
-    .setURL('https://www.youtube.com/watch?v=5icFcPkVzMg')
-    .setState('Arcade Game')
-    .setName('osu!')
-    .setDetails('MariannE - Yooh')
+    .setURL('oyna.haronken.com.tr')
+    .setState('Vanilla')
+    .setName('Minecraft')
+    .setDetails('oyna.haronken.com.tr')
     .setParty({
-      max: 8,
-      current: 1,
+      max: 60,
+      current: 29,
     })
     .setStartTimestamp(Date.now())
     .setAssetsLargeText('Idle')
-    .setAssetsSmallImage('373370493127884800') // https://discord.com/api/v9/oauth2/applications/367827983903490050/assets
-    .setAssetsSmallText('click the circles')
-    .addButton('Beatmap', 'https://osu.ppy.sh/beatmapsets/1391659#osu/2873429');
+    .setAssetsSmallImage('1209442097741041674') // https://discord.com/api/v9/oauth2/applications/367827983903490050/assets
+    .setAssetsSmallText('BETA sürecinde seni de aramızda görmek isteriz!')
+    .addButton('Discord', 'https://discord.gg/Gp6GTsCyAr');
 
   client.user.setPresence({ activities: [status] });
 });
