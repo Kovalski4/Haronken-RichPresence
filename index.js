@@ -10,7 +10,7 @@ client.on('ready', async () => {
 
   const status = new RichPresence(client)
     .setApplicationId('367827983903490050')
-    .setType('PLAYING')
+    .setType('STREAMING')
     .setURL('https://discord.gg/Gp6GTsCyAr')
     .setState('Ekonomi Vanilla Deneyimi! [1.20.4]')
     .setName('Minecraft')
