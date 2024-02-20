@@ -22,7 +22,7 @@ client.setInterval(() => {
     x = 0;
   }
   updatePresence();
-}, 1000 * 60 * 10);
+}, 600000);
 
 function updatePresence() {
   const status = new RichPresence(client)
