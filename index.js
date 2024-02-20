@@ -1,25 +1,12 @@
 const { Client, RichPresence } = require('discord.js-selfbot-v13');
 const client = new Client();
-super_mantikli_kodlama_pratigi = "!";
 
 client.on('ready', async () => {
-  updatePresence();
-});
-
-setInterval(updatePresence, 600000);
-
-async function updatePresence() {
   getExtendURL = await RichPresence.getExternal(
     client,
     '367827983903490050',
     'https://i.ibb.co/x6L5BVX/removal-ai-b65445d5-96ed-43fa-8ada-886e26b0c06a-logo-removebg-preview-nsklln3na-transformed.png', // Required if the image you use is not in Discord
   );
-
-  if (super_mantikli_kodlama_pratigi = "!") {
-    super_mantikli_kodlama_pratigi = ".";
-  } else {
-    super_mantikli_kodlama_pratigi = "!";
-  }
 
   const status = new RichPresence(client)
     .setApplicationId('367827983903490050')
@@ -36,6 +23,6 @@ async function updatePresence() {
     .addButton('Discord', 'https://discord.gg/Gp6GTsCyAr');
 
   client.user.setPresence({ activities: [status] });
-}
+});
 
 client.login(process.env.DISCORD_USER_TOKEN);
