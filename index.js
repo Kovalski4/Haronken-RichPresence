@@ -1,6 +1,6 @@
 const { Client, RichPresence } = require('discord.js-selfbot-v13');
 const client = new Client();
-super_mantikli_kodlama_pratigi = 0;
+super_mantikli_kodlama_pratigi = "!";
 
 client.on('ready', async () => {
   updatePresence();
@@ -15,10 +15,10 @@ async function updatePresence() {
     'https://i.ibb.co/x6L5BVX/removal-ai-b65445d5-96ed-43fa-8ada-886e26b0c06a-logo-removebg-preview-nsklln3na-transformed.png', // Required if the image you use is not in Discord
   );
 
-  if (super_mantikli_kodlama_pratigi = 0) {
-    super_mantikli_kodlama_pratigi = 1;
+  if (super_mantikli_kodlama_pratigi = "!") {
+    super_mantikli_kodlama_pratigi = ".";
   } else {
-    super_mantikli_kodlama_pratigi = 0;
+    super_mantikli_kodlama_pratigi = "!";
   }
 
   const status = new RichPresence(client)
