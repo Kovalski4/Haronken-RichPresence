@@ -30,9 +30,9 @@ async function updatePresence() {
     .setDetails('oyna.haronken.com.tr')
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage(getExtendURL[0].external_asset_path)
-    .setAssetsLargeText('BETA sürecinde seni de aramızda görmek isteriz!'+super_mantikli_kodlama_pratigi)
+    .setAssetsLargeText('BETA sürecinde seni de aramızda görmek isteriz'+super_mantikli_kodlama_pratigi)
     .setAssetsSmallImage('367827983903490050') // https://discord.com/api/v9/oauth2/applications/367827983903490050/assets
-    .setAssetsSmallText('BETA sürecinde seni de aramızda görmek isteriz!')
+    .setAssetsSmallText('BETA sürecinde seni de aramızda görmek isteriz'+super_mantikli_kodlama_pratigi)
     .addButton('Discord', 'https://discord.gg/Gp6GTsCyAr');
 
   client.user.setPresence({ activities: [status] });
