@@ -3,7 +3,6 @@ const client = new Client();
 const keep_alive = require('./keep_alive.js')
 
 client.on('ready', async () => {
-  client.user.setGlobalName('! Haronken');
   getExtendURL = await RichPresence.getExternal(
     client,
     '367827983903490050',
