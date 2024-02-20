@@ -5,8 +5,8 @@ client.on('ready', async () => {
   const status = new RichPresence(client)
     .setApplicationId('367827983903490050')
     .setType('PLAYING')
-    .setURL('oyna.haronken.com.tr')
-    .setState('Vanilla')
+    .setURL('https://discord.gg/Gp6GTsCyAr')
+    .setState('Vanilla 1.20.4')
     .setName('Minecraft')
     .setDetails('oyna.haronken.com.tr')
     .setParty({
