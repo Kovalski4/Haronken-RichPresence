@@ -15,7 +15,7 @@ client.on('ready', async () => {
     })
     .setStartTimestamp(Date.now())
     .setAssetsLargeText('Idle')
-    .setAssetsSmallImage('1209442097741041674') // https://discord.com/api/v9/oauth2/applications/367827983903490050/assets
+    .setAssetsSmallImage('373370493127884800') // https://discord.com/api/v9/oauth2/applications/367827983903490050/assets
     .setAssetsSmallText('BETA sürecinde seni de aramızda görmek isteriz!')
     .addButton('Discord', 'https://discord.gg/Gp6GTsCyAr');
 
