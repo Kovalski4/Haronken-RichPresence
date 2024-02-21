@@ -15,10 +15,10 @@ client.on('ready', async () => {
     .setURL('https://www.twitch.tv/haronken')
     .setState('Ekonomi Vanilla Deneyimi! [1.20.4]')
     .setName('Minecraft')
-    .setDetails('5000₺ ödüllü çekilii! Detaylara bak')
+    .setDetails('Sunucuda oynamayanlar çekilişi kazansa bile ödül alamaz')
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage(getExtendURL[0].external_asset_path)
-    .setAssetsLargeText('Sunucuda oynamayanlar çekilişi kazansa bile ödül alamaz')
+    .setAssetsLargeText('Hemen aramıza katıl ve 5000₺ kazanma şansını yakala!')
     .setAssetsSmallImage('367827983903490050') // https://discord.com/api/v9/oauth2/applications/367827983903490050/assets
     .setAssetsSmallText('Çekilişimize katılmak için discord tuşuna tıkla ve katıl!')
     .addButton('Discord', 'https://discord.gg/Gp6GTsCyAr');
