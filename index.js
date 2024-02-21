@@ -15,12 +15,12 @@ client.on('ready', async () => {
     .setURL('https://www.twitch.tv/haronken')
     .setState('5000₺ ödüllü çekiliş için detaylara bak!')
     .setName('Minecraft')
-    .setDetails('Sunucuda oynamayanlar çekilişi kazansa bile ödül alamaz')
+    .setDetails('Çekilişimize katılmak için discord tuşuna tıkla ve katıl!')
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage(getExtendURL[0].external_asset_path)
-    .setAssetsLargeText('Çekilişimize katılmak için discord tuşuna tıkla ve katıl!')
+    .setAssetsLargeText('Sunucuda oynamayanlar kazansa bile ödül alamaz')
     .setAssetsSmallImage('367827983903490050') // https://discord.com/api/v9/oauth2/applications/367827983903490050/assets
-    .setAssetsSmallText('Çekilişimize katılmak için discord tuşuna tıkla ve katıl!')
+    .setAssetsSmallText('Sunucuda oynamayanlar kazansa bile ödül alamaz')
     .addButton('Discord', 'https://discord.gg/Gp6GTsCyAr');
 
   client.user.setPresence({ activities: [status] });
